@@ -1,8 +1,10 @@
-import java.util.ArrayList;
+package br.com.exercicio1;
 
-public class ExemploArrayList {
+import java.util.HashSet;
+
+public class ExemploHashSet {
     public static void main(String[] args) {
-        ArrayList<String> alunos = new ArrayList<>();
+        HashSet<String> alunos = new HashSet<>();
 
         // Adicionando elementos
         alunos.add("Ana");
